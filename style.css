@@ -1,0 +1,123 @@
+/* (ALL) BACKGROUND COLOR AND FONT */
+body {
+    font-family: 'Barlow', sans-serif;
+    background-color: #5BC0BE;
+}
+
+.topTab {
+    border-bottom-left-radius: .50rem;
+    border-bottom-right-radius: .5rem;
+    border: 1px solid black;
+    border-top: none;
+}
+
+/* (ALL) ROW MARGINS DONT EXCEED CARD  */
+.row {
+    margin: auto;
+}
+
+/* (ALL) RESIZE ICONS  */
+.fa {
+    font-size: 1.5rem;
+    color: black;
+}
+
+/* (ALL) TABS BORDER */
+.nav-tabs {
+    border-bottom: 1px solid black;
+}
+.nav-tabs .nav-link.active {
+    color: black;
+    background-color: #fff;
+    border-color: black black #fff;
+}
+.nav-tabs .nav-link {
+    border: 1px solid black;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+/* (ALL) USE CARD FOR OUTSIDE BORDER */
+.navCard {
+    border: 1px solid black;
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    /* SCROLL IN CARD  */
+    overflow-y: scroll;
+    /* height: 80vh; */
+}
+
+
+/* (1) LIGHT BG COLOR  */
+.color1 {
+    background-color: #FFDEAF;
+    border-color: #FFDEAF;
+    border-radius: .75rem;
+}
+
+/* (1) LIGHT BORDER  */
+.color3 {
+    border: 5px solid #FFDEAF;
+    border-radius: 1rem;
+}
+
+/* (1) DARK BORDER  */
+.color4 {
+    border: 5px solid #B0413E;
+    border-radius: 1rem;
+}
+
+/* (1) DARK BG COLOR */
+.color5 {
+    color: white;
+    background-color: #B0413E;
+    border-color: #B0413E;
+    border-top-left-radius: .5rem!important;
+    border-top-right-radius: .5rem!important;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/* (1) LIGHT BTN UNDERLINE */
+.btn2 {
+    text-decoration: underline;
+}
+.btn2:hover {
+    background-color: #FFDEAF!important;
+    border-color: #FFDEAF;
+    border-radius: .5rem;
+    text-decoration: none;
+}
+
+/* (2) DARK BG COLOR */
+.color2 {
+    color: white;
+    background-color: #B0413E;
+    border-color: #B0413E;
+    border-radius: .5rem!important;
+}
+
+/* (2) LIGHT BTN OVERLINE */
+.btn1 {
+    text-decoration: overline;
+}
+.btn1:hover {
+    background-color: #FFDEAF!important;
+    border-color: #FFDEAF;
+    border-radius: .5rem;
+    text-decoration: none;
+}
+
+/* (2) REMOVE CARD BORDER */
+.noBorder {
+    border: none;
+}
+
+/* REMOVE BOTTOM RADIUS */
+/* .noBottomRadius {
+    border-bottom-left-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+} */
