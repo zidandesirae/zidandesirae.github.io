@@ -10,10 +10,15 @@ body {
 }
 
 /* (ALL) RESIZE ICONS  */
-.fa {
+.fa,
+.fab,
+.far {
     font-size: 1.5rem;
     color: black;
 }
+/* i {
+    font-style: normal!important;
+} */
 
 /* (ALL) NAVBAR STYLING */
 .topTab {
