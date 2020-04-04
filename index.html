@@ -7,47 +7,48 @@
     <!-- BOOTSTRAP  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
     <!-- FONT-AWESOME  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d2e3ee39c3.js" crossorigin="anonymous"></script>
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Desirae Zidan</title>
 </head>
 
 <body>
     <!-- NAVBAR  -->
     <nav class="navbar sticky-top bg-white topTab mx-2">
-        <a class="navbar-brand text-body" href="#">
-            <h4>DESIRAE ZIDAN</h4>
+        <a class="navbar-brand text-body" href="index.html">
+            <h4 class="mb-0">DESIRAE ZIDAN</h4>
         </a>
         <ul class="nav justify-content-end">
             <li class="nav-item">
-                <a class="nav-link active fa fa-github px-3" href="https://github.com/zidandesirae" target="_blank"></a>
+                <a class="nav-link active" href="https://github.com/zidandesirae" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active fa fa-linkedin-square px-3" href="https://linkedin.com/in/desirae-zidan"
-              target="_blank"></a>
+                <a class="nav-link active" href="https://linkedin.com/in/desirae-zidan" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active fa fa-file-text px-3" href="ResumeForPortfolio.pdf" target="_blank"></a>
+                <a class="nav-link active far" href="ResumePortfolio.pdf" target="_blank">
+                    <i class="far fa-file-pdf"></i>
+                </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active fa fa-envelope-o px-3" href="mailto:zidan.desirae@gmail.com"></a>
+                <a id="nav-contact-tab" class="nav-link active" role="button">
+                    <i class="far fa-address-book"></i>
+                </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link active fa fa-phone px-3" href="tel: +1-707-338-7046"></a>
-            </li>
+            <!-- <li class="nav-item">
+                <a id="nav-contact-tab" class="nav-link active fa fa-phone px-3" role="button"></a>
+            </li> -->
         </ul>
     </nav>
     <!-- MAIN CONTAINER  -->
@@ -89,7 +90,7 @@
                             <p class="px-4 pt-2">
                                 I am originally from Petaluma, Calfornia and I moved to Arizona in August 2012.
                                 I graduated from Arizona State University and earned my B.A. degree in Organizational Leadership in May 2017.
-                                Since graduating, I have gained corporate experience in the finance industry as an operational specialist.
+                                Since graduating, I have gained corporate experience in the finance industry as an Operations Specialist.
                             </p>
                             <hr class="m-3">
                             <div class="px-4">
@@ -144,13 +145,11 @@
                     <div class="col-md-4 col-sm-12 px-3 pb-4">
                         <div class="btn-group-vertical btn-block color3" role="group">
                             <h4 class="px-3 pt-3">Quick Links</h4>
-                            <a href="" class="btn btn2" role="button" target="_blank">↳ Take a look at my
-                                resume</a>
-                            <a href="" class="btn btn2" role="button" target="_blank">↳ Connent on
-                                LinkedIn</a>
-                            <a href="" class="btn btn2" role="button">↳ View projects I have worked on</a>
-                            <a href="" class="btn btn2" role="button" target="_blank">↳ Visit my Github page</a>
-                            <a href="" class="btn btn2" role="button">↳ Get in contact with me</a>
+                            <a href="ResumePortfolio.pdf" class="btn btn2" role="button" target="_blank">↳ Take a look at my resume</a>
+                            <a href="https://linkedin.com/in/desirae-zidan" class="btn btn2" role="button" target="_blank">↳ Connent on LinkedIn</a>
+                            <button id="quickLink2" class="btn btn2">↳ View projects I have worked on</button>
+                            <a href="https://github.com/zidandesirae" class="btn btn2" role="button" target="_blank">↳ Visit my Github page</a>
+                            <button id="quickLink3" class="btn btn2">↳ Get in contact with me</button>
                         </div>
                     </div>
                 </div>
@@ -261,7 +260,7 @@
                             </div>
                             <!-- ^^^^^ IR -->
                             <h5 class="card-header color2 text-center py-3">Would you like to view more? Visit my
-                                <a href="http://github.com/zidandesirae" target="_blank" class="text-white">Github</a> page!</h5>
+                                <a href="http://github.com/zidandesirae" target="_blank" class="text-white"><u>Github</u></a> page!</h5>
                         </div>
                         <!-- ^^^^^ OC-->
                     </div>
@@ -279,7 +278,7 @@
                                 <h4 class="p-3 color6">Get In Contact & Stay Connected</h4>
                                 <ul class="p-3 mb-0" style="list-style-type: none;">
                                     <li>Please feel free to get in touch with me via the email, phone or social networks listed below. I am always open to discussing new projects, creative ideas or opportunities to be part of your vision.</li>
-                                    <li> Thank you for taking the time to a view at my portfolio and I look forward to speaking with you soon.</li>
+                                    <li> Thank you for taking the time to view my portfolio and I look forward to speaking with you soon!</li>
                                 </ul>
                                 <!-- NESTED ROW 1 -->
                                 <a href="mailto:zidan.desirae@gmail.com"class="row contact text-body pt-2">
@@ -292,29 +291,29 @@
                                 </a>
                                 <!-- NESTED ROW 2 -->
                                 <a href="tel: +1-707-338-7046" class="row contact text-body pt-2">
-                                    <div class="col-3">
+                                    <div class="col-4">
                                         <p class="">↳ PHONE</p>
                                     </div>
-                                    <div class="col-9">
+                                    <div class="col-8">
                                         <p class="text-right ">(707)-338-7046</p>
                                     </div>
                                 </a>
                                 <!-- NESTED ROW 3 -->
                                 <a href="https://linkedin.com/in/desirae-zidan"
                                 target="_blank" class="row contact text-body pt-2">
-                                    <div class="col-3">
+                                    <div class="col-4">
                                         <p class="">↳ LINKEDIN</p>
                                     </div>
-                                    <div class="col-9">
+                                    <div class="col-8">
                                         <p class="text-right ">Desirae Zidan</p>
                                     </div>
                                 </a>
                                 <!-- NESTED ROW 4 -->
                                 <a href="https://github.com/zidandesirae" target="_blank" class="row contact text-body pt-2">
-                                    <div class="col-3">
+                                    <div class="col-4">
                                         <p class="">↳ GITHUB</p>
                                     </div>
-                                    <div class="col-9">
+                                    <div class="col-8">
                                         <p class="text-right ">zidandesirae</p>
                                     </div>
                                 </a>
@@ -341,7 +340,7 @@
         <div class="footer p-2 text-center">&copy; 2020 DESIRAE ZIDAN</div>
     </footer>
 
-    <link rel="stylesheet" href="script.js">
+    <script src="script.js"></script>
 </body>
 
 </html>
