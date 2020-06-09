@@ -1,4 +1,4 @@
-/* (ALL) BACKGROUND COLOR AND FONT */
+/* (ALL) BACKGROUND COLOR AND FONT */ 
 body {
     font-family: 'Barlow', sans-serif;
     background-color: #5BC0BE;
@@ -16,9 +16,6 @@ body {
     font-size: 1.5rem;
     color: black;
 }
-/* i {
-    font-style: normal!important;
-} */
 
 /* (ALL) NAVBAR STYLING */
 .topTab {
@@ -161,4 +158,7 @@ hr {
     background-color: #FFDEAF;
     text-decoration: none;
 }
-
+/* (3) UL STYLYING */
+.styleTab3 {
+   list-style-type: none;
+}
